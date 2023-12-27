@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+    <section class="sec-1">
+        <h1 class="form-title">Registation form</h1>
+        <div class="conteiner">
+            <form action="#">
+                <div class="user-input-box ">
+                    <label for="firstname" class="lb">First Name:</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter you firstname">
+                </div>
+                <div class="user-input-box">
+                    <label for="lastname" class="lb">Last Name:</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter you lastname">
+                </div>
+                <div class="user-input-box">
+                    <label for="email" class="lb">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="it should contail @......">
+                </div>
+                <div class="user-input-box">
+                    <label for="mobile" class="lb">Mobile:</label>
+                    <input type="tel" id="mobile" name="mobile" placeholder="only 10 digit allowed" maxlength="10"
+                        minlength="10">
+                </div>
+                <div class="user-input-box-1">
+                    <label for="gender" class="lb">Gender:</label>
+                    <input type="radio" id="gender" name="gender">MALE
+                    <input type="radio" id="gender" name="gender">FEMALE
+                    <input type="radio" id="gender" name="gender">OTHER
+                </div>
+                <div class="user-input-box">
+                    <label for="dob" class="lb">DOB:</label>
+                    <input type="date" id="dob" name="dob">
+                </div>
+                <div class="user-input-box">
+                    <label for="address" class="lb">Address:</label>
+                    <textarea name="" id="txa" cols="15" rows="5"></textarea>
+                </div>
+                <div class="user-input-box">
+                    <label for="pincode" class="lb">Area PIN:</label>
+                    <input type="number" id="pincode" name="pincode">
+                </div>
+                <div class="user-input-box">
+                    <label for="state" class="lb">State:</label>
+                    <input type="text" id="state" name="state">
+                </div>
+                <div class="user-input-box">
+                    <label for="education" class="lb">education:</label>
+                    <select id="txa">
+                        <option value="none">none</option>
+                        <option value="10th">10th</option>
+                        <option value="12th">12th</option>
+                        <option value="b.com">b.com</option>
+                        <option value="m.com">m.com</option>
+                        <option value="phd">phd</option>
+                    </select>
+                </div>
+                <div class="user-input-box-1 ">
+                    <label for="specialization" class="lb">Specialization:</label><br>
+                    <input type="checkbox" name="" id="">Computer Science<br>
+                    <input type="checkbox" id="">Information Technology<br>
+                    <input type="checkbox" name="" id="">Computer Architecture<br>
+                    <input type="checkbox" name="" id="">Tele Communication
+                </div>
+                <div class="user-input-box">
+                    <label for="password" class="lb">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter you password">
+                </div>
+                <div class="btn">
+                    <input type="submit" value="Register">
+                </div>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

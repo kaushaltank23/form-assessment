@@ -1,0 +1,54 @@
+
+.form-title{
+    text-align: center;
+    background-color: rgb(108, 67, 67);
+    color: wheat;
+}
+body{
+    background-color: tan;
+}
+.sec-1{
+    /* background-color: tan; */
+    padding: 0 0 10px 0;
+}
+.conteiner{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.user-input-box{
+    display: flex;
+}
+.user-input-box-1{
+    display: flex;
+    align-items: center;
+}
+.lb{
+    width: 25%;
+    font-size: 20px;
+    margin: 0 0 15px 0 ;
+}
+.user-input-box input{
+    width: 50%;
+    margin: 0 0 10px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#txa{
+    width: 50%;
+    margin: 0 0 10px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.btn{
+    text-align: center;
+}
+.btn input{
+    width: 10%;
+    padding: 5px 10px;
+    background-color: blue;
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px 0 0 0 ;
+}
